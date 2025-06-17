@@ -1,0 +1,31 @@
+import { SearchOutlined } from '@ant-design/icons'
+import { AutoComplete, Col, Form, Input, Row, Select } from 'antd'
+const CategorySearch = (props) => {
+  const { getAmenity } = props
+  const handleChangeSearch = (value) => {
+    getAmenity(value)
+  }
+  return (
+    <Row className='card'>
+      <Col xs={24} sm={14} lg={14} xl={12} className='m'>
+        <AutoComplete
+          style={{
+            width: '100%',
+          }}
+          onChange={handleChangeSearch}
+          allowClear
+        >
+          <Input
+            id='search_text_value'
+            placeholder={`search `}
+            style={{ paddingTop: '5px', paddingBottom: '5px' }}
+            prefix={
+              <SearchOutlined style={{ fontSize: '16px', color: '#1890ff' }} />
+            }
+          />
+        </AutoComplete>
+      </Col>
+    </Row>
+  )
+}
+export default CategorySearch

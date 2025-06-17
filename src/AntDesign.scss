@@ -1,0 +1,50 @@
+.apply-all-tabs .ant-tabs-nav .ant-tabs-tab {
+  /* Basic "pill" shape for each tab */
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px 16px;
+  border: none;
+  margin-right: 8px;
+  background-color: #f6f6f6; /* default background for inactive tabs */
+  transition: background-color 0.3s ease;
+}
+
+/* Active tab styling */
+.apply-all-tabs .ant-tabs-nav .ant-tabs-tab-active {
+  background-color: #ffffff; /* active background color */
+  border: none;
+  /* Optionally add a drop shadow or highlight */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.apply-all-tabs .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: black !important;
+}
+
+/* Remove the default Ant Design underline/ink-bar */
+.apply-all-tabs .ant-tabs-nav .ant-tabs-ink-bar {
+  display: none !important;
+}
+
+/* Optional: Hover effect for tabs */
+.apply-all-tabs .ant-tabs-nav .ant-tabs-tab:hover {
+  background-color: #e8e8e8;
+}
+.apply-all-tabs .ant-tabs-content-holder {
+  background: white;
+  padding: 16px;
+  // border-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.apply-all-tabs .ant-tabs-nav {
+  margin: 0 0 0px 0 !important;
+}
+
+//
+/* Make every ascending and descending arrow red */
+.column-sort .ant-table-column-sorter-up,
+.column-sort .ant-table-column-sorter-down {
+  color: white !important;
+}

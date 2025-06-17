@@ -1,0 +1,18 @@
+.tag-video-moment :where(.css-dev-only-do-not-override-161f05s).ant-card .ant-card-body {
+    padding: 8px;
+    border-radius: 0 0 8px 8px;
+}
+
+.upload-video-moment,
+.upload-image-moment {
+
+    :where(.css-dev-only-do-not-override-161f05s).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container,
+    :where(.css-dev-only-do-not-override-161f05s).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container,
+    :where(.css-dev-only-do-not-override-161f05s).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item-container,
+    :where(.css-dev-only-do-not-override-161f05s).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item-container {
+        display: inline-block;
+        width: 70px !important;
+        height: 60px !important;
+        vertical-align: top;
+    }
+}

@@ -1,0 +1,32 @@
+.avatar-uploader
+  :where(
+    .css-dev-only-do-not-override-1x0dypw
+  ).ant-upload-wrapper.ant-upload-picture-card-wrapper
+  .ant-upload.ant-upload-select,
+:where(
+    .css-dev-only-do-not-override-1x0dypw
+  ).ant-upload-wrapper.ant-upload-picture-circle-wrapper
+  .ant-upload.ant-upload-select {
+  width: 200px !important;
+  height: 150px !important;
+  text-align: center;
+  vertical-align: top;
+  background-color: rgba(0, 0, 0, 0.02);
+  border: 1px dashed #d9d9d9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.tabs-type-card .ant-tabs-nav .ant-tabs-tab-active {
+  background: white !important;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+  padding: 10px !important;
+}
+.tabs-type-card .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: black;
+}
+.tabs-type-card .ant-tabs-tab {
+  background: #f4f2f2 !important;
+  padding: 10px !important;
+}

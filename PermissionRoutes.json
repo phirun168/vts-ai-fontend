@@ -1,0 +1,192 @@
+[
+    {
+        "group": "Crud Blank Page",
+        "child": [
+            {
+                "system": "blank Page",
+                "keySystem": "manage_crud_blank",
+                "detail": "manage Crud Blank",
+                "menuKey": "/blank-page"
+            },
+            {
+                "system": "Crud Blank Page",
+                "keySystem": "manage_crud_blank",
+                "detail": "manage Crud Blank",
+                "menuKey": "/crud-blank"
+            }
+        ]
+    },
+    {
+        "group": "Dashboard",
+        "child": [
+            {
+                "system": "Dashboard System",
+                "keySystem": "dashboard_system",
+                "detail": "Display dashboard system",
+                "menuKey": "/dashboard"
+            }
+        ]
+    },
+    {
+        "group": "App",
+        "child": [
+            {
+                "system": "User",
+                "keySystem": "manage_app_user",
+                "detail": "You can manage user",
+                "menuKey": "/app/user"
+            },
+            {
+                "system": "Request List Place",
+                "keySystem": "manage_user_request",
+                "detail": "You can manage user request list",
+                "menuKey": "/request-list-place"
+            }
+        ]
+    },
+    {
+        "group": "Management",
+        "child": [
+            {
+                "system": "Home Page",
+                "keySystem": "manage_home_page",
+                "detail": "You can manage place in home page",
+                "menuKey": "/home"
+            }
+        ]
+    },
+    {
+        "group": "Setup",
+        "child": [
+            {
+                "system": "Province",
+                "keySystem": "manage_province",
+                "detail": "You can manage province",
+                "menuKey": "/province"
+            },
+            {
+                "system": "Category",
+                "keySystem": "manage_category",
+                "detail": "You can manage Category",
+                "menuKey": "/category"
+            },
+            {
+                "system": "Sub Category",
+                "keySystem": "manage_subcategory",
+                "detail": "You can manage sub Category",
+                "menuKey": "/sub-category"
+            },
+            {
+                "system": "Type",
+                "keySystem": "manage_type",
+                "detail": "You can manage Type",
+                "menuKey": "/type"
+            },
+            {
+                "system": "Hashtags",
+                "keySystem": "manage_hashtags",
+                "detail": "You can manage Hashtags",
+                "menuKey": "/hashtags"
+            },
+            {
+                "system": "Activity",
+                "keySystem": "manage_activity",
+                "detail": "You can manage activity",
+                "menuKey": "/activity"
+            },
+            {
+                "system": "Amenity",
+                "keySystem": "manage_amenity",
+                "detail": "You can manage amenity",
+                "menuKey": "/amenity"
+            },
+            {
+                "system": "Privacy",
+                "keySystem": "manage_privacy",
+                "detail": "You can manage Privacy",
+                "menuKey": "/privacy"
+            },
+            {
+                "system": "Feature",
+                "keySystem": "manage_feature",
+                "detail": "You can manage Feature",
+                "menuKey": "/feature"
+            },
+            {
+                "system": "Keyword",
+                "keySystem": "manage_keyword",
+                "detail": "You can manage Keyword",
+                "menuKey": "/keyword"
+            }
+        ]
+    },
+    {
+        "group": "Other",
+        "child": [
+            {
+                "system": "Filter Copy Address",
+                "keySystem": "manage_address",
+                "detail": "You can manage to copy address",
+                "menuKey": "/filter-copy-address"
+            }
+        ]
+    },
+    {
+        "group": "Post",
+        "child": [
+            {
+                "system": "Moment",
+                "keySystem": "manage_moment",
+                "detail": "You can manage moment post",
+                "menuKey": "/moment"
+            },
+            {
+                "system": "Promotion&Event",
+                "keySystem": "manage_promotion&Event",
+                "detail": "You can manage  Promotion&Event",
+                "menuKey": "/promotion&event"
+            },
+            {
+                "system": "Service",
+                "keySystem": "manage_service",
+                "detail": "You can manage  Service",
+                "menuKey": "/service"
+            },
+            {
+                "system": "Additional Service",
+                "keySystem": "manage_additional_service",
+                "detail": "You can manage  Additional Service",
+                "menuKey": "/additional-service"
+            },
+            {
+                "system": "Tours",
+                "keySystem": "manage_tours",
+                "detail": "You can manage  tours",
+                "menuKey": "/tours"
+            }
+        ]
+    },
+    {
+        "group": "Place Listing",
+        "child": [
+            {
+                "system": "All Property",
+                "keySystem": "manage_property",
+                "detail": "You can manage to  property",
+                "menuKey": "/property"
+            },
+            {
+                "system": "Follow Up",
+                "keySystem": "manage_followUp",
+                "detail": "You can manage to  Follow Up",
+                "menuKey": "/followUp"
+            },
+            {
+                "system": "Review Import",
+                "keySystem": "manage_review_import",
+                "detail": "You can manage to  Review Import",
+                "menuKey": "/review-import"
+            }
+        ]
+    }
+]
