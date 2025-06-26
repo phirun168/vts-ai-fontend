@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 
 const questionList = [
-  'What skills do I need for a data analyst role?',
-  'How do I switch careers to UX design?',
-]
+  "ទីតាំងឃ្លាំងនៅទីណាខ្លះ ?",
+  "តើក្រុមហ៊ុនមាន មធ្យោបាយដឹកជញ្ជូន តាមណាខ្លះ?",
+];
 function EmptyState({ selectedQuestion }) {
   return (
     <div>
-      <h2 className='font-bold text-xl text-center'>
+      <h2 className="font-bold text-xl text-center">
         Ask anything to AI career Agnet
       </h2>
       <div>
         {questionList.map((question, index) => (
           <h2
-            className='p-4 text-center border rounded-l my-3 hover:border-blue-300 cursor-pointer'
+            className="p-4 text-center border rounded-l my-3 hover:border-blue-300 cursor-pointer"
             key={index}
             onClick={() => selectedQuestion(question)}
           >
@@ -22,7 +22,7 @@ function EmptyState({ selectedQuestion }) {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default EmptyState
+export default EmptyState;

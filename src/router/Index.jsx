@@ -58,14 +58,6 @@ const publicRoute = () => {
       path: "/logout",
       element: <Logout />,
     },
-    {
-      path: "/",
-      element: <h1>Testing</h1>,
-    },
-    {
-      path: "/test1",
-      element: <h1>Testing</h1>,
-    },
   ];
 
   return routes;
